@@ -1,0 +1,26 @@
+{
+  "name": "@acme/api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./server.js ",
+    "build": "npm run build",
+    "start": "npm run start",
+    "lint": "npm run lint"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "eslint-config-custom": "*",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "tsconfig": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "eslint-config-custom": "*",
+    "nodemon": "^2.0.22",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
+  }
+}
